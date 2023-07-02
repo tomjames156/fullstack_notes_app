@@ -3,3 +3,4 @@ __pycache__/
 .env
 tomlandia/
 frontend/
+notes_app_react/
