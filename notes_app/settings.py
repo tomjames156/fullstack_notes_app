@@ -29,8 +29,6 @@ DEBUG = config('DEBUG')
 
 ALLOWED_HOSTS = ['fullstacknotesapp-production.up.railway.app']
 
-CSRF_TRUSTED_ORIGINS = ['https://fullstacknotesapp-production.up.railway.app']
-
 # Application definition
 
 INSTALLED_APPS = [
