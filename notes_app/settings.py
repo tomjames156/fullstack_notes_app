@@ -27,9 +27,9 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['fullstacknotesapp-production.up.railway.app/']
+ALLOWED_HOSTS = ['fullstacknotesapp-production.up.railway.app']
 
-CSRF_TRUSTED_ORIGINS = ['https://fullstacknotesapp-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://fullstacknotesapp-production.up.railway.app']
 
 
 # Application definition
