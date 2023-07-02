@@ -25,9 +25,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = config('DEBUG')
 
 ALLOWED_HOSTS = ['fullstacknotesapp-production.up.railway.app']
+
+CSRF_TRUSTED_ORIGINS = ['fullstacknotesapp-production.up.railway.app']
 
 # Application definition
 
