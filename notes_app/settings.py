@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://fullstacknotesapp-production.up.railway.app']
 
 # Application definition
 
@@ -89,6 +89,11 @@ DATABASES = {
         'PORT': config('DB_PORT'),
     }
 }
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://notes-app-react-tan.vercel.app',
+    'https://fullstacknotesapp-production.up.railway.app'
+]
 
 
 # Password validation
